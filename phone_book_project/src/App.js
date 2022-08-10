@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Row, Col, Container} from "react-bootstrap";
 import ContactForm from "./component/ContactForm";
+import ContactList from "./component/ContactList";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
                     <ContactForm/>
                 </Col>
 
-                <Col></Col>
+                <Col>
+                  <ContactList/>
+                </Col>
             </Row>
         </Container>
     </div>
